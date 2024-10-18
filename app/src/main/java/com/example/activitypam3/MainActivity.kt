@@ -32,8 +32,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ActivityPAM3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "world",
+                    BasicComposable(
                         modifier = Modifier.padding(innerPadding)
                     )
 
@@ -43,7 +42,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
+@Composable
+fun BasicComposable(modifier: Modifier = Modifier) {
+}
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
