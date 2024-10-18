@@ -44,7 +44,13 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun BasicComposable(modifier: Modifier = Modifier) {
-    Column{
+    Column(
+        verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally,
+
+        )
+    {
 
     }
 }
