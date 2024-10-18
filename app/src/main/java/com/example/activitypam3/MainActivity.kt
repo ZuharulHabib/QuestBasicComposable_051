@@ -80,6 +80,11 @@ fun BasicComposable(modifier: Modifier = Modifier) {
             color = Color.Black,
             fontWeight = FontWeight.Bold
         )
+        Image(painter = painterResource(id = R.drawable.poto),
+            contentDescription = null,
+            modifier = Modifier.size(250.dp)
+        )
+
     }
 }
 @Composable
