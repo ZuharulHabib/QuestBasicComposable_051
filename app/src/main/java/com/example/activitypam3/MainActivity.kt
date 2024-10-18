@@ -54,6 +54,7 @@ fun BasicComposable(modifier: Modifier = Modifier) {
         Text(text = "LOGIN", modifier = Modifier,
             fontSize = 70.sp,
             color = Color.Red,
+            fontWeight = FontWeight.Bold
         )
 
 
