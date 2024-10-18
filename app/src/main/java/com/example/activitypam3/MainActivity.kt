@@ -62,7 +62,8 @@ fun BasicComposable(modifier: Modifier = Modifier) {
             fontStyle = FontStyle.Italic
         )
         Image(painter = painterResource(id = R.drawable.umy),
-
+            contentDescription = null,
+            modifier = Modifier.size(250.dp)
 
 
     }
