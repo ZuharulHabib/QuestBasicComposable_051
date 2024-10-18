@@ -75,6 +75,11 @@ fun BasicComposable(modifier: Modifier = Modifier) {
             color = Color.Blue,
             fontWeight = FontWeight.Bold
         )
+        Text(text = "20220140051", modifier = Modifier,
+            fontSize = 50.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
 @Composable
